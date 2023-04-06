@@ -1,0 +1,146 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	padding: 60px;
+	align-items: center;
+	justify-content: space-between;
+	overflow: scroll;
+	gap: 20px;
+	
+	table {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		color: white;
+
+		tbody {
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+
+			th {
+				width: 150px;
+				text-align: center;
+				border: 1px solid white;
+			}
+
+			tr {
+				width: 100%;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+
+				&:hover {
+					cursor: pointer;
+					outline: 2px solid greenyellow;
+				}
+
+				td {
+					width: 150px;
+					text-align: center;
+					border: 1px solid white;
+				}
+			}
+		}
+	}
+
+	.table1 {
+		width: 600px;
+
+		th {
+			width: 150px;
+		}
+
+		td {
+			width: 150px;
+		}
+	}
+
+	.table2 {
+		width: 450px;
+
+		th {
+			width: 150px;
+		}
+
+		td {
+			width: 150px;
+		}
+	}
+
+	.table3 {
+		width: 450px;
+
+		th {
+			width: 225px;
+		}
+
+		td {
+			width: 225px;
+		}
+	}
+
+	.table4 {
+		width: 450px;
+
+		th {
+			width: 225px;
+		}
+
+		td {
+			width: 225px;
+		}
+	}
+
+	.table5 {
+		width: 1200px;
+
+		th {
+			width: 200px;
+		}
+
+		td {
+			width: 200px;
+		}
+	}
+
+	.table6 {
+		width: 450px;
+
+		th {
+			width: 225px;
+		}
+
+		td {
+			width: 225px;
+		}
+	}
+
+	.form {
+		margin-top: 140px;
+		width: 20%;
+		height: fit-content;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		padding: 30px;
+		border: 4px solid greenyellow;
+		border-radius: 20px;
+
+		input {
+			width: 200px;
+			height: 20px;
+			padding: 10px;
+		}
+
+		button {
+			margin: 20px 0;
+			padding: 20px;
+		}
+	}
+}
